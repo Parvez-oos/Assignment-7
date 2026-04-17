@@ -1,16 +1,25 @@
-# React + Vite
+👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"KeenKeeper" is your personal shelf of meaningful connections. It helps you browse, tend, and nurture the relationships that matter most by tracking interactions and reminding you when it's time to reach out.
 
-Currently, two official plugins are available:
+<=========> Technologies Used <=========>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project is built with a modern tech stack focused on performance and clean UI:
 
-## React Compiler
+1. Frontend: React.js (Vite)
+2. Styling: Tailwind CSS
+3. Icons & Assets: Custom PNG Assets & Lucide React
+4. Routing: React Router DOM
+5. State Management: React Context API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<=======> Key Features <=======>
 
-## Expanding the ESLint configuration
+1. Smart Relationship Tracking: 
+Automatically tracks the days since your last contact with friends. The system categorizes connections into On-Track, Almost Due, or Overdue, so you always know who needs your attention.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Interactive Timeline: 
+A visual history of all your social interactions. Whether it's a Call, Text, Video Chat, or a physical Meetup, the timeline keeps a chronological record of your bonding moments.
+
+3. Personalized Interaction Insights: 
+A dedicated dashboard providing high-level stats on your social health, including total friends, active connections, and a breakdown of interactions for the current month.
+

@@ -121,7 +121,7 @@ export default function FriendDetails() {
           </div>
 
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <h3 className="font-bold text-gray-800 mb-6">Quick Check-In</h3>
+            <h3 className="font-bold text-[#244D3F] mb-6">Quick Check-In</h3>
             <div className="grid grid-cols-3 gap-4">
               <button
                 onClick={() => handleInteraction("Call")}
