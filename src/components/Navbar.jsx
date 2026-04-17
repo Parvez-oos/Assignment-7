@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { Clock, BarChart2, Home } from 'lucide-react';
+import { Clock, LineChart, Home } from 'lucide-react';
 
 export default function Navbar() {
   
@@ -32,7 +32,7 @@ export default function Navbar() {
           </NavLink>
           
           <NavLink to="/stats" className={navClass}>
-            <BarChart2 size={18} />
+            <LineChart size={18}/>
             <span>Stats</span>
           </NavLink>
         </div>
